@@ -14,11 +14,11 @@ export default function LoginForm() {
     const [showPassword, setShowPassword] = useState(false);
 
     const handleClick = () => {
-        navigate('/dashboard', { replace: true });
+        navigate('/dashboard/app', { replace: true });
     };
 
     return (
-        <>
+        <>  
             <Stack spacing={4}>
                 <TextField name="phone" label="Phone Number" type="number" />
 

@@ -56,7 +56,7 @@ export default function LoginPage() {
                         left: { xs: 16, sm: 24, md: 40 },
                     }}
                 />
-                
+
                 <Container maxWidth="sm">
                     <StyledContent>
                         <Typography variant="h4" gutterBottom>
